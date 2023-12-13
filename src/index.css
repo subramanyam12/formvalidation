@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.position_move{
+    @apply absolute -z-0 top-1 left-3 peer-focus:-top-4 peer-focus:left-3 peer-focus:text-[13px] duration-300 capitalize text-gray-500
+}
