@@ -258,7 +258,7 @@ function Mainform() {
                                 <span className={`text-sm text-red-500 ml-3`}>{error['state']}</span>
                                 {
                                     statesbool ? (
-                                        <div className='absolute z-10 bg-white top-8  left-0 border-[1px] shadow-lg border-[#0000003a] mt-3 w-full py-3 rounded-xl max-h-[50vh] max-sm:h-[30vh] overflow-y-auto scroll_none'>
+                                        <div className='absolute z-10 bg-white top-8  left-0 border-[1px] shadow-lg border-[#0000003a] mt-3 w-full py-3 rounded-xl max-h-[50vh] max-sm:max-h-[30vh] overflow-y-auto scroll_none'>
                                             {searchstates.length ? searchstates.map(({ name }) => (
                                                 <h1 key={name} onClick={() => stateclickhandle(name)} className='text-center py-[2px] hover:bg-[#b9b7b79d]'>{name}</h1>
                                             )) : (
