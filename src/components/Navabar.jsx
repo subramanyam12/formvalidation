@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 
 const Navabar = () => {
-    let hashlocation = window.location.pathname==='/' ? 0 : 1
+    let hashlocation = window.location.hash==='#/listofusers' ? 1 : 0
     const [menuindex, setmenuindex] = useState(hashlocation)
     const data =useSelector(state=>state.Profile)
    
